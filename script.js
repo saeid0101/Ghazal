@@ -1,6 +1,15 @@
 // =============================
 // غزل و محسن — editable settings
 // =============================
+// Always start the invitation from the intro page
+if ("scrollRestoration" in history) {
+  history.scrollRestoration = "manual";
+}
+
+window.addEventListener("load", () => {
+  window.scrollTo(0, 0);
+});
+
 const CONFIG = {
   // Change this number to the couple's WhatsApp number, country code included.
   whatsappNumber: "4915906407590",
@@ -34,8 +43,9 @@ setInterval(updateCountdown, 1000);
 
 const wa = `https://wa.me/${CONFIG.whatsappNumber}?text=${encodeURIComponent(CONFIG.whatsappMessage)}`;
 $("rsvpWhatsApp").href = wa;
-$("whatsappRail").href = wa;
+// $("whatsappRail").href = wa;
 $("mapLink").href = CONFIG.googleMapsUrl;
+console.log($("mapLink").href);
 
 const music = $("bgMusic");
 const musicToggle = $("musicToggle");
