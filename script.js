@@ -15,7 +15,6 @@ const CONFIG = {
   whatsappNumber: "4915906407590",
   whatsappMessage: "سلام، با افتخار حضور خودم را در جشن عروسی غزل و محسن تأیید می‌کنم. ♡",
   // Replace this Google Maps search with the exact venue address or a Maps URL.
-  //googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Golestan+Garden+Hall+Tehran",
   googleMapsUrl: "  https://www.google.com/maps/place/%D8%AA%D8%A7%D9%84%D8%A7%D8%B1+%D8%AA%D8%B4%D8%B1%DB%8C%D9%81%D8%A7%D8%AA%DB%8C+%D8%AF%DB%8C%D9%BE%D9%84%D9%85%D8%A7%D8%AA%E2%80%AD/@32.6699147,51.6822413,12662m/data=!3m1!1e3!4m10!1m2!2m1!1z2KrYp9mE2KfYsSDYudix2YjYs9uMINin2LXZgdmH2KfZhg!3m6!1s0x3fbc4b8e7c8855b5:0x705026d3dbab14cf!8m2!3d32.7050911!4d51.7614228!15sCiLYqtin2YTYp9ixINi52LHZiNiz24wg2KfYtdmB2YfYp9mGkgEMYmFucXVldF9oYWxs4AEA!16s%2Fg%2F11hd6sqjf1!5m1!1e2?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
 
   // ISO date/time used by the countdown.
